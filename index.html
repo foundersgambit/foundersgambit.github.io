@@ -6,7 +6,8 @@
     <title>Founders Gambit</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
@@ -15,14 +16,15 @@
         color: #555;
         font-size: 18px;
         line-height: 1.5em;
-      }
-
-      .set-font-family {
         font-family: "Droid Serif";
       }
 
-      .center {
-        width: 400px;
+      h1, h2, h3, h4, h5, h6 {
+        font-weight: 700;
+      }
+
+      .xs-cap-width {
+        max-width: 550px;
         margin: 0 auto;
       }
 
@@ -38,35 +40,62 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="center">
-      <h1>
-        <img src="logo/cropped-transparent.png"
-             alt="Founders Gambit"
-             width="350px">
-      </h1>
-
-      <p class="set-font-family">
-        Join the mailing list!  We'll update you when we have new episodes.
+    <section class="container xs-cap-width">
+      <p class="row">
+        <div class="col-xs-12">
+          <h1>
+            <img src="logo/cropped-transparent.png"
+                 alt="Founders Gambit"
+                 width="100%">
+          </h1>
+        </div>
       </p>
 
-      <!-- Begin MailChimp Signup Form -->
-      <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-      <style type="text/css">
-        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;}
-        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-          We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-      </style>
-      <div id="mc_embed_signup">
-      <form action="http://foundersgambit.us8.list-manage1.com/subscribe/post?u=b4e508f96614c768076fe0be7&amp;id=b0f41ff1b0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate padding-reset" target="_blank" novalidate>
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_b4e508f96614c768076fe0be7_b0f41ff1b0" tabindex="-1" value=""></div>
-          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-      </form>
-      </div>
+      <p class="row">
+        <div class="col-xs-12">
+          Join the mailing list!  We'll update you when we have new episodes.
+        </div>
+      </p>
 
-      <!--End mc_embed_signup-->
+      <p class="row">
+        <div class="col-xs-12">
+          <!-- Begin MailChimp Signup Form -->
+          <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+          <style type="text/css">
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;}
+            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+              We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+          </style>
+          <div id="mc_embed_signup">
+          <form action="http://foundersgambit.us8.list-manage1.com/subscribe/post?u=b4e508f96614c768076fe0be7&amp;id=b0f41ff1b0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate padding-reset" target="_blank" novalidate>
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;"><input type="text" name="b_b4e508f96614c768076fe0be7_b0f41ff1b0" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          </form>
+          </div>
+          <!--End mc_embed_signup-->
+        </div>
+      </p>
 
+
+      <p class="row">
+        <div class="col-xs-12">
+          <h2>About</h2>
+          Founders Gambit is a startup &amp; entrepreneurship podcast.  The host is <a href="http://www.dillonforrest.com">Dillon Forrest</a>.
+        </div>
+      </p>
+
+      <p class="row">
+        <div class="col-xs-12">
+          <h2>Episodes</h2>
+          <ul>
+            <li>YouTube</li>
+            <li>iTunes (coming soon!)</li>
+          </ul>
+        </div>
+      </p>
+    </section>
 
 
     <!-- finish with the rest of html5bp -->
