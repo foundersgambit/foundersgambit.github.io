@@ -31,6 +31,22 @@
       .padding-reset {
         padding: 0 !important;
       }
+
+      /* responsive iframe hack: http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+      .responsive-video-iframe-outer {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 25px;
+        height: 0;
+      }
+
+      .responsive-video-iframe-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
     </style>
 
   </head>
@@ -84,6 +100,20 @@
         <div class="col-xs-12">
           <h2>About</h2>
           Founders Gambit is a startup &amp; entrepreneurship podcast.  The host is <a target="_blank" href="http://www.dillonforrest.com">Dillon Forrest</a>.
+        </div>
+      </p>
+
+      <p class="row">
+        <div class="col-xs-12">
+          <h2>Latest</h2>
+        </div>
+      </p>
+
+      <p class="row">
+        <div class="col-xs-12">
+          <div class="responsive-video-iframe-outer">
+            <iframe class="responsive-video-iframe-inner" width="560" height="315" src="https://www.youtube.com/embed/s6Go-50La5Q" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
       </p>
 
